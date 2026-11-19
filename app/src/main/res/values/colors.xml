@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores do projeto -->
+    <color name="cor_primaria">#6A1B9A</color>
+    <color name="cor_texto_cabecalho">#FFFFFF</color>
+    <color name="cor_status_lido">#2E7D32</color>
+    <color name="cor_status_nao_lido">#C62828</color>
+    <color name="cor_texto_status">#FFFFFF</color>
+    <color name="cor_texto_secundario">#616161</color>
+    <color name="cor_resumo_destaque">#6A1B9A</color>
 </resources>

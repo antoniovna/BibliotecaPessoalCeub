@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">Biblioteca Pessoal</string>
+
+    <!-- Menu inferior -->
+    <string name="menu_livros">Livros</string>
+    <string name="menu_novo">Novo</string>
+    <string name="menu_resumo">Resumo</string>
+
+    <!-- Títulos das telas -->
+    <string name="titulo_lista">Meus Livros</string>
+    <string name="titulo_cadastro">Cadastro de Livro</string>
+    <string name="titulo_edicao">Editar Livro</string>
+    <string name="titulo_resumo">Resumo da Biblioteca</string>
+
+    <!-- Formulário -->
+    <string name="hint_titulo">Título do livro</string>
+    <string name="hint_autor">Autor</string>
+    <string name="hint_ano">Ano de publicação</string>
+    <string name="checkbox_lido">Já li este livro</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_atualizar">Atualizar</string>
+
+    <!-- Status de leitura -->
+    <string name="status_lido">Lido</string>
+    <string name="status_nao_lido">Não lido</string>
+
+    <!-- Formato -->
+    <string name="formato_autor_ano">%1$s • %2$d</string>
+
+    <!-- Lista vazia -->
+    <string name="lista_vazia">Nenhum livro cadastrado</string>
+
+    <!-- Erros de validação -->
+    <string name="erro_titulo_obrigatorio">Informe o título do livro</string>
+    <string name="erro_autor_obrigatorio">Informe o autor</string>
+    <string name="erro_ano_obrigatorio">Informe o ano de publicação</string>
+    <string name="erro_ano_invalido">Ano inválido</string>
+    <string name="erro_ano_intervalo">O ano deve estar entre %1$d e %2$d</string>
+
+    <!-- Mensagens de sucesso/erro -->
+    <string name="msg_salvo_sucesso">Livro salvo com sucesso</string>
+    <string name="msg_salvo_erro">Erro ao salvar o livro</string>
+    <string name="msg_atualizado_sucesso">Livro atualizado com sucesso</string>
+    <string name="msg_atualizado_erro">Erro ao atualizar o livro</string>
+    <string name="msg_excluido_sucesso">Livro excluído com sucesso</string>
+    <string name="msg_excluido_erro">Erro ao excluir o livro</string>
+
+    <!-- Diálogo de exclusão -->
+    <string name="dialogo_excluir_titulo">Excluir livro</string>
+    <string name="dialogo_excluir_mensagem">Deseja realmente excluir \"%1$s\"?</string>
+    <string name="dialogo_sim">Sim</string>
+    <string name="dialogo_nao">Não</string>
+
+    <!-- Resumo -->
+    <string name="resumo_total">Total de livros: %1$d</string>
+    <string name="resumo_lidos">Livros lidos: %1$d</string>
+    <string name="resumo_nao_lidos">Livros não lidos: %1$d</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_status_leitura">Status de leitura</string>
 </resources>

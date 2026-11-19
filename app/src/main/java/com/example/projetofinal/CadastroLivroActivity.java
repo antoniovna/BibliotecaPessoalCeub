@@ -8,6 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+/**
+ * Activity para inclusão e edição de livros.
+ */
 public class CadastroLivroActivity extends AppCompatActivity {
 
     @Override
@@ -17,8 +20,9 @@ public class CadastroLivroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro_livro);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, 0);
             return insets;
         });
+        NavegacaoMenu.configurar(this, R.id.nav_novo);
     }
 }
