@@ -44,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:hint="@string/hint_titulo"
+                android:importantForAutofill="no"
                 android:inputType="textCapSentences"
                 android:maxLines="1" />
 
@@ -53,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:hint="@string/hint_autor"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName|textCapWords"
                 android:maxLines="1" />
 
@@ -62,6 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:hint="@string/hint_ano"
+                android:importantForAutofill="no"
                 android:inputType="number"
                 android:maxLength="4" />
 
